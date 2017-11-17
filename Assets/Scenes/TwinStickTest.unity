@@ -25628,7 +25628,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -25639,7 +25639,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -27677,8 +27677,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114415031693362308, guid: 91d993d9fcb08804aaed59c78b1496b3, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91d993d9fcb08804aaed59c78b1496b3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1365168070
@@ -37781,28 +37780,11 @@ Transform:
   m_Father: {fileID: 919742764}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1873606179 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1137866186052208, guid: 91d993d9fcb08804aaed59c78b1496b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1356939759}
 --- !u!4 &1873606180 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4236601228015416, guid: 91d993d9fcb08804aaed59c78b1496b3,
     type: 2}
   m_PrefabInternal: {fileID: 1356939759}
---- !u!114 &1873606181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1873606179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9aa5d057e19d88488f9d2b668cb666f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 10
 --- !u!1 &1875812341
 GameObject:
   m_ObjectHideFlags: 0
